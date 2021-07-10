@@ -3,39 +3,32 @@
     padding: 0;
     margin: 0;
 }
+html {
+    font-size: 62.5%;
+}
 body {
     background-color: #EEC76D;
     margin: 0px;
 }
-.header {
-    background-color: #EEC76D;
-    margin: 0px;
-    width: 100%;
-    height: 80px;
-} 
-.header__p {
-    margin:0%;
-    padding-top: 20px;
+.section p {
     padding-left: 20px;
-    font-size: 30px;
-    font-weight: bold;
-    color: #6E510D;
+    padding-top: 20px;
+    font-size: 4rem;
+
 }
 .section__ul {
     padding-left: 20px;
 }
 .section__ul__li {
-    color: #6E510D;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 3rem;
     list-style: none;
     padding-top: 20px;
     padding-bottom: 10px;
 }
 .section__ul__li__ol li{
-    color: #A47913;
-    font-weight: bold;
+    font-size: 1.6rem;
     list-style: none;
-    padding-bottom: 10px;
-}   
+    padding-top: 10px;
+}
+
      
