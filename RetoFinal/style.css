@@ -19,11 +19,12 @@
     font-size: 4rem;
   }
   .container {
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
 
   }
-  .section1, .section2, .section3 {
+  .section1, .section2, .section3, .section4 {
     background-color: #A2DBFA;
     width: 100%;
     min-width: 150px;
@@ -52,5 +53,18 @@
   }
   .section__item li {
       color: #053742 ;
+  }
+  @media (min-width: 600px) {
+    .section1, .section2 ,.section3, .section4{
+      width: 50%;
+    }  
+  }
+  @media (min-width: 800px) {
+    .section1, .section2, .section3, .section4 {
+      width: 25%;
+      max-width: 1000px;
+      margin: 0 auto;
+      
+    }
   }
   
